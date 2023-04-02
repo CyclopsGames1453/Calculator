@@ -1,5 +1,5 @@
 var i = document.getElementById('h');
-i.value=0;
+r();
 
 function l(y)
 {
@@ -13,28 +13,13 @@ function l(y)
     }
 }
 
-function c()
+function r()
 {
     i.value="0";
-    r();
-}
-
-function hs()
-{
-    i.value=i.value.substr(0,i.value.lenght-1);
-    r();
 }
 
 function h()
 {
     i.value=eval(i.value);
-}
-
-function r()
-{
-    if(i.value=="")
-    {
-        i.value="0";
-    }
 }
 
